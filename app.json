@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Tindi",
+    "slug": "tindi",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "backgroundColor": "#FFFFF0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFF0"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "babel": {
+          "include": ["react-native-web"]
+        }
+      },
+      "pwa": {
+        "backgroundColor": "#FFFFF0",
+        "themeColor": "#6F4E37"
+      }
+    }
+  }
+}
